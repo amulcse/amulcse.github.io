@@ -1,2 +1,0 @@
-# amulcse.github.io
-Portfolio

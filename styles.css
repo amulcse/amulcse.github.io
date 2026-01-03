@@ -74,6 +74,7 @@ body {
 .nav-links {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -837,10 +838,12 @@ body {
 
     .nav-wrapper {
         padding: 20px 24px;
+        flex-wrap: wrap;
+        gap: 16px;
     }
 
     .nav-links {
-        gap: 24px;
+        gap: 20px;
     }
 
     .nav-links a {
@@ -897,6 +900,22 @@ body {
 }
 
 @media (max-width: 480px) {
+    .nav-wrapper {
+        padding: 16px 20px;
+    }
+
+    .nav-logo {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        gap: 16px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
     .hero-title {
         font-size: 48px;
     }

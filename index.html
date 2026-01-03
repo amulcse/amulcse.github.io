@@ -1,654 +1,388 @@
 <!DOCTYPE html>
-<html lang="eng">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <title>Amul Patel - Senior Software Engineer - Portfolio</title>
-    <!--Favicon-->
-    <link rel="shortcut icon" type="image/png" href="assets/images/afavicon.png"/>
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    <!--Owl Carousel CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
-    <!--Magnific PopUp CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
-    <!--Icofont CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/icofont.css">
-    <!--Animated Headline CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/animated-headline.css">
-    <!--Animate CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    <!--Bootsnav CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootsnav.css">
-    <!--Main CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!--Responsive CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-
-    <!--Modanizr JS-->
-    <script src="assets/js/modernizr.custom.js"></script>
-    <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38778847-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-38778847-1');
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amul Patel — Backend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!--Start Preloader-->
-    <div class="site-preloader">
-        <div class="spinner">
-            <div class="double-bounce1"></div>
-            <div class="double-bounce2"></div>
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <a href="#home" class="nav-logo">AP</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#work">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
-    </div>
-    <!--End Preloader-->
+    </nav>
 
-    <!--Start Body Wrap-->
-    <div id="body-wrap">
-        <!--Start Header-->
-        <header id="header">
-            <nav class="navbar navbar-default bootsnav" data-spy="affix" data-offset-top="10">
-                <!--Start Container-->
-                <div class="container">
-                    <!-- Start Header Navigation -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="icofont icofont-navigation-menu"></i>
-                        </button>
-                        <a class="navbar-brand" href="index.html"><img src="assets/images/AmulPatel.png" class="logo" alt=""></a>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-main">
+                    <div class="hero-intro">
+                        <span class="hero-greeting">Hi, I'm</span>
+                        <h1 class="hero-name">Amul Patel</h1>
+                        <p class="hero-role">Software Engineer</p>
                     </div>
-                    <!-- End Header Navigation -->
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
-                            <li class="active"><a href="#header">Home</a></li>
-                            <li><a href="#about-area">About</a></li>
-                            <li><a href="#skill-area">Skill</a></li>
-                            <li><a href="#services-area">Services</a></li>
-                            <li><a href="#portfolio-area">Portfolio</a></li>
-                            <li><a href="#testimonial-area">Testimonial</a></li>
-                            <!-- <li><a href="#blog-area">Blog</a></li> -->
-                            <li><a href="#contact-area">Contact</a></li>
-                        </ul>
+                    <div class="hero-description">
+                        <p>I specialize in building scalable backend systems, cloud infrastructure, and robust APIs. With 10+ years of experience, I help businesses create powerful server-side solutions using Node.js, Golang, PHP and AWS.</p>
                     </div>
-                    <!-- /.navbar-collapse -->
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn-primary">Get In Touch</a>
+                        <a href="#work" class="btn-secondary">View Services</a>
+                    </div>
                 </div>
-                <!--End Container-->
-            </nav>
-            <div class="clearfix"></div>
-        </header>
-        <!--End Header-->
-
-        <!--Start Welcome Area-->
-        <section id="welcome-area">
-            <!--Start Container-->
-            <div class="container">
-                <!--Start Row-->
-                <div class="row">
-                    <!--Start Welcome Image-->
-                    <div class="col-sm-6">
-                        <div class="welcome-img">
-                            <img src="assets/images/amul_patel_cse.png" class="img-responsive" alt="Image">
-                        </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label">Years</div>
                     </div>
-                    <!--End Welcome Image-->
-
-                    <!--Start Welcome Content-->
-                    <div class="col-sm-6">
-                        <div class="welcome-content animated zoomIn">
-                            <h3>Hello, I’m</h3>
-                            <h1>Amul Patel</h1>
-                            <p>I have more than five years of professional experience in Website Building, Web-services, Back-end development, Server Configurations along with experience in client communication and team management.</p>
-                            <div class="welcome-btn">
-                                <a href="#contact-area">Hire Me</a><a href="#portfolio-area">My Portfolio</a>
-                            </div>
-                        </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="520">0</div>
+                        <div class="stat-label">Projects</div>
                     </div>
-                    <!--End Welcome Content-->
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Satisfaction</div>
+                    </div>
                 </div>
-                <!--End Row-->
             </div>
-            <!--End Container-->
         </section>
-        <!--End Welcome Area-->
 
-        <!--Start About Area-->
-        <section id="about-area" class="bg-gray">
-            <!--Start Container-->
+        <section id="about" class="section">
             <div class="container">
-                <!--Start Heading-->
-                <div class="heading text-center">
-                    <h2>About Me</h2>
+                <div class="section-header">
+                    <span class="section-number">01</span>
+                    <h2 class="section-title">About</h2>
                 </div>
-                <!--End Heading-->
-
-                <!--Start Row-->
-                <div class="row">
-                    <!--Start About Content-->
-                    <div class="col-sm-6">
-                        <div class="about-content">
-                            <p>My fascination for computers and programming dates back to my childhood when I got a chance
-                                to go for a computer training summer camp in 7th grade, where I had been introduced with
-                                computers and programming languages. Taking up
-                                computer science and engineering as my undergrad was a conscious choice which followed my
-                                superlative performance in science and mathematics subjects.</p>
-                            <a href="assets/files/amul_patel_cv.pdf" target="_blank">SEE My CV</a>
+                <div class="about-content">
+                    <div class="about-main">
+                        <p class="about-text">
+                            My fascination with computers and programming began in 7th grade at a computer training summer camp, 
+                            where I was first introduced to programming languages. This early exposure led me to pursue 
+                            computer science and engineering, building on my strong performance in science and mathematics.
+                        </p>
+                        <p class="about-text">
+                            With over ten years of professional experience, I specialize in website building, web services, 
+                            backend development, and server configurations. I also bring expertise in client communication 
+                            and team management to every project.
+                        </p>
+                        <div class="about-links">
+                            <a href="mailto:amulpatel.cse@gmail.com" class="about-link">
+                                <span>Email</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7 13L13 7M13 7H7M13 7V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                    <!--End About Content-->
-
-                    <!--Start About Contact Info-->
-                    <div class="col-sm-6">
-                        <div class="about-contact-info">
-                            <p><span><i class="icofont icofont-email"></i> Email Me : </span>amulpatel.cse@gmail.com</p>
-                            <p><span><i class="icofont icofont-phone"></i> Call Me : </span>+1 (226) 988-5451</p>
-                            <p><span><i class="icofont icofont-social-google-map"></i> Address : </span> Cambridge, Canada</p>
+                    <div class="about-sidebar">
+                        <div class="info-block">
+                            <div class="info-label">Location</div>
+                            <div class="info-value">Toronto, Canada</div>
                         </div>
-                        <div class="about-social">
-                            <h5>Follow Me :</h5>
-                            <ul>
-                                <li><a href="https://www.linkedin.com/in/amulcse/" target="_blank"><i class="icofont icofont-brand-linkedin"></i></a></li>
-                                <li> <a href="//api.whatsapp.com/send?phone=+12269885451&text=Hey Amul, I would like to work with you." title="Share on whatsapp"><i class="icofont icofont-social-whatsapp"></i></a></li>
-                                <li><a href="https://github.com/amulcse" target="_blank"><i class="icofont icofont-social-github"></i></a></li>
-                                <li><a href="https://twitter.com/smartamul" target="_blank"><i class="icofont icofont-social-twitter"></i></a></li>
-                                <li><a href="mailto:amulpatel.cse@gmail.com" target="_blank"><i class="icofont icofont-email"></i></a></li>
-                                </li>
-                            </ul>
+                        <div class="info-block">
+                            <div class="info-label">Email</div>
+                            <div class="info-value">amulpatel.cse@gmail.com</div>
                         </div>
                     </div>
-                    <!--End About Contact Info-->
                 </div>
-                <!--End Row-->
             </div>
-            <!--End Container-->
         </section>
-        <!--End About Area-->
 
-        <!--Start Skill Area-->
-        <section id="skill-area">
-            <!--Start Container-->
+        <section id="skills" class="section section-dark">
             <div class="container">
-                <!--Start Heading-->
-                <div class="heading text-center">
-                    <h2>My Skill</h2>
+                <div class="section-header">
+                    <span class="section-number">02</span>
+                    <h2 class="section-title">Skills</h2>
                 </div>
-                <!--End Heading-->
-
-                <!--Start Row-->
-                <div class="row">
-                    <!--Start Skill Bars-->
-                    <div class="col-sm-6">
-                        <div class="skill-bars">
-                            <!--Start Skill Bar Single-->
-                            <div class="skill-bar-single">
-                                <h6>PHP <span class="float-right">90%</span></h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                    </div>
+                <div class="skills-container">
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Backend</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">PHP</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="90"></div>
                                 </div>
                             </div>
-                            <!--End Skill Bar Single-->
-
-                            <!--Start Skill Bar Single-->
-                            <div class="skill-bar-single">
-                                <h6>Docker <span class="float-right">80%</span></h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                    </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="85"></div>
                                 </div>
                             </div>
-                            <!--End Skill Bar Single-->
-
-                            <!--Start Skill Bar Single-->
-                            <div class="skill-bar-single">
-                                <h6>Rest API <span class="float-right">80%</span></h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                    </div>
+                            <div class="skill-item">
+                                <span class="skill-name">REST API</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="90"></div>
                                 </div>
                             </div>
-                            <!--End Skill Bar Single-->
                         </div>
                     </div>
-                    <!--End Skill Bars-->
-
-                    <!--Start Skill Bars-->
-                    <div class="col-sm-6">
-                        <div class="skill-bars">
-                            <!--Start Skill Bar Single-->
-                            <div class="skill-bar-single">
-                                <h6>MySQL <span class="float-right">90%</span></h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Infrastructure</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">AWS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="85"></div>
                                 </div>
                             </div>
-                            <!--End Skill Bar Single-->
-
-                            <!--Start Skill Bar Single-->
-                            <div class="skill-bar-single">
-                                <h6>HTML <span class="float-right">75%</span></h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                                    </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Docker</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="80"></div>
                                 </div>
                             </div>
-                            <!--End Skill Bar Single-->
-
-                            <!--Start Skill Bar Single-->
-                            <div class="skill-bar-single">
-                                <h6>CSS <span class="float-right">75%</span></h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                                    </div>
+                            <div class="skill-item">
+                                <span class="skill-name">MySQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="90"></div>
                                 </div>
                             </div>
-                            <!--End Skill Bar Single-->
                         </div>
                     </div>
-                    <!--End Skill Bars-->
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Frontend</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!--End Row-->
             </div>
-            <!--End Container-->
         </section>
-        <!--End Skill Area-->
 
-        <!--Start Services Area-->
-        <section id="services-area" class="bg-gray">
-            <!--Start Heading-->
-            <div class="heading text-center">
-                <h2>My Services</h2>
-            </div>
-            <!--End Heading-->
-
-            <!--Start Container-->
+        <section id="work" class="section">
             <div class="container">
-                <!--Start Row-->
-                <div class="row">
-                    <!--Start Service Single-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-single text-center">
-                            <i class="icofont icofont-computer"></i>
-                            <h5>eCommerce</h5>
-                            <p>I conceptualize your market strategy and optimise your ecommerce in a way that your customers can find you across platforms</p>
-                        </div>
-                    </div>
-                    <!--End Service Single-->
-
-                    <!--Start Service Single-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-single text-center">
-                            <i class="icofont icofont-dashboard-web"></i>
-                            <h5>Website</h5>
-                            <p>I create highly responsive websites with easy navigation, remarkable aesthetics and sharp content</p>
-                        </div>
-                    </div>
-                    <!--End Service Single-->
-
-                     <!--Start Service Single-->
-                     <div class="col-md-4 col-sm-6">
-                        <div class="service-single text-center">
-                            <i class="icofont icofont-server"></i>
-                            <h5>Server Configurations</h5>
-                            <p>Experience in working on AWS and its services like AWS IAM, VPC, EC2, ECS, EBS, RDS, S3, Auto Scaling, Cloud Front and
-                                experienced in Cloud automation using AWS Cloud Formation templates to create custom sized VPC, subnets, NAT, EC2
-                                instances, ELB and Security groups.</p>
-                        </div>
-                    </div>
-                    <!--End Service Single-->
-
-                    <!--Start Service Single-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-single text-center">
-                            <i class="icofont icofont-web"></i>
-                            <h5>Web Services</h5>
-                            <p>Strong Experience and skills in API (rest, web) Development using PHP & NodeJs</p>
-                        </div>
-                    </div>
-                    <!--End Service Single-->
-
-                     <!--Start Service Single-->
-                     <div class="col-md-4 col-sm-6">
-                        <div class="service-single text-center">
-                            <i class="icofont icofont-code"></i>
-                            <h5>Back-end development</h5>
-                            <p>I have designed and developed the back-end with AWS, MySql & PHP</p>
-                        </div>
-                    </div>
-                    <!--End Service Single-->
-                     
-                   
-
-                    <!--Start Service Single-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-single text-center">
-                            <i class="icofont icofont-support"></i>
-                            <h5>Support</h5>
-                            <p>You'll always get more than you've asked for with our extended client support. You have us when you need us, any time</p>
-                        </div>
-                    </div>
-                    <!--End Service Single-->
-
+                <div class="section-header">
+                    <span class="section-number">03</span>
+                    <h2 class="section-title">Services</h2>
                 </div>
-                <!--End Row-->
+                <div class="work-grid">
+                    <div class="work-card">
+                        <div class="work-icon">01</div>
+                        <h3 class="work-title">eCommerce Solutions</h3>
+                        <p class="work-description">I conceptualize market strategies and optimize ecommerce platforms so your customers can find you across all platforms.</p>
+                    </div>
+                    <div class="work-card">
+                        <div class="work-icon">02</div>
+                        <h3 class="work-title">Web Development</h3>
+                        <p class="work-description">I create highly responsive websites with easy navigation, remarkable aesthetics, and sharp content.</p>
+                    </div>
+                    <div class="work-card">
+                        <div class="work-icon">03</div>
+                        <h3 class="work-title">Server Configuration</h3>
+                        <p class="work-description">Expertise in AWS services including IAM, VPC, EC2, ECS, EBS, RDS, S3, Auto Scaling, and CloudFront. Cloud automation using AWS CloudFormation.</p>
+                    </div>
+                    <div class="work-card">
+                        <div class="work-icon">04</div>
+                        <h3 class="work-title">API Development</h3>
+                        <p class="work-description">Strong experience in REST and web API development using PHP & Node.js, building scalable and efficient endpoints.</p>
+                    </div>
+                    <div class="work-card">
+                        <div class="work-icon">05</div>
+                        <h3 class="work-title">Backend Development</h3>
+                        <p class="work-description">Designing and developing robust backends with AWS, MySQL, and PHP, ensuring scalability and performance.</p>
+                    </div>
+                    <div class="work-card">
+                        <div class="work-icon">06</div>
+                        <h3 class="work-title">Client Support</h3>
+                        <p class="work-description">Extended client support with availability when you need us. You'll always get more than you've asked for.</p>
+                    </div>
+                </div>
             </div>
-            <!--End Container-->
         </section>
-        <!--End Services Area-->
 
-        <!--Start Portfolio Area-->
-        <section id="portfolio-area">
-            <!--Start Heading-->
-            <div class="heading text-center">
-                <h2>My Portfolio</h2>
-            </div>
-            <!--End Heading-->
-
-            <!--Start Container-->
+        <section id="portfolio" class="section">
             <div class="container">
-                <!--Start Portfolio Menu Row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="portfolio-menu text-center">
-                            <button class="active" data-filter="*">All</button>
-                            <button data-filter=".cat1">eCommerce</button>
-                            <button data-filter=".cat2">Sales App</button>
-                            <button data-filter=".cat3">Marketing App</button>
+                <div class="section-header">
+                    <span class="section-number">04</span>
+                    <h2 class="section-title">Portfolio</h2>
+                </div>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="website">Website</button>
+                    <button class="filter-btn" data-filter="ecommerce">eCommerce</button>
+                    <button class="filter-btn" data-filter="app">App</button>
+                    <button class="filter-btn" data-filter="marketing">Marketing</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="website">
+                        <div class="portfolio-image portfolio-gradient-1">
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">Website Development</h3>
+                                <p class="portfolio-category">Website</p>
+                                <p class="portfolio-description">Highly responsive website with easy navigation, remarkable aesthetics and sharp content</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="website app">
+                        <div class="portfolio-image portfolio-gradient-2">
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">Website & App</h3>
+                                <p class="portfolio-category">Website & App</p>
+                                <p class="portfolio-description">Full-stack solution combining responsive web interface with mobile application</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="ecommerce">
+                        <div class="portfolio-image portfolio-gradient-3">
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">eCommerce Platform</h3>
+                                <p class="portfolio-category">eCommerce</p>
+                                <p class="portfolio-description">Complete ecommerce solution with optimized market strategy and cross-platform visibility</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="app">
+                        <div class="portfolio-image portfolio-gradient-4">
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">Sales App</h3>
+                                <p class="portfolio-category">Sales App</p>
+                                <p class="portfolio-description">Mobile application for sales management with analytics and reporting features</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="marketing">
+                        <div class="portfolio-image portfolio-gradient-5">
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">Marketing Campaign</h3>
+                                <p class="portfolio-category">Marketing</p>
+                                <p class="portfolio-description">Digital marketing solution with data analytics and campaign optimization</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="app">
+                        <div class="portfolio-image portfolio-gradient-6">
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">Apps Development</h3>
+                                <p class="portfolio-category">App</p>
+                                <p class="portfolio-description">Custom mobile application development with backend integration</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!--End Portfolio Menu Row-->
-
-                <!--Start Portfolio List-->
-                <div class="portfolio-list">
-                    <!--Start Row-->
-                    <div class="row">
-                        <!--Start Portfolio Single-->
-                        <div class="col-md-4 col-sm-6 grid-item cat1">
-                            <div class="portfolio-single">
-                                <img src="assets/images/thebeautyco.jpg" class="img-responsive" alt="Image" style="background-color: pink;">
-                                <div class="portfolio-overlay">
-                                    <div class="display-table">
-                                        <div class="table-cell">
-                                            <!-- <a class="popup-img" href="assets/images/portfolio-1.jpg"><i class="icofont icofont-plus"></i></a> -->
-                                            <a href="https://www.thebeautyco.in/"><i class="icofont icofont-link"></i></a>
-                                            <h5>Website</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Portfolio Single-->
-
-                        <!--Start Portfolio Single-->
-                        <div class="col-md-4 col-sm-6 grid-item cat1 cat2">
-                            <div class="portfolio-single">
-                                <img src="assets/images/beardo" class="img-responsive" alt="Image" style="background-color: black;">
-                                <div class="portfolio-overlay">
-                                    <div class="display-table">
-                                        <div class="table-cell">
-                                            <!-- <a class="popup-img" href="assets/images/portfolio-2.jpg"><i class="icofont icofont-plus"></i></a> -->
-                                            <a href="https://www.beardo.in/"><i class="icofont icofont-link"></i></a>
-                                            <h5>Website & App</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Portfolio Single-->
-
-                        <!--Start Portfolio Single-->
-                        <div class="col-md-4 col-sm-6 grid-item cat3">
-                            <div class="portfolio-single">
-                                <img src="assets/images/royale_touche_marketing.webp" class="img-responsive" alt="Image">
-                                <div class="portfolio-overlay">
-                                    <div class="display-table">
-                                        <div class="table-cell">
-                                            <!-- <a class="popup-img" href="assets/images/portfolio-3.jpg"><i class="icofont icofont-plus"></i></a> -->
-                                            <a href="https://play.google.com/store/apps/details?id=com.marketingapp"><i class="icofont icofont-link"></i></a>
-                                            <h5>Marketing</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Portfolio Single-->
-
-                        <!--Start Portfolio Single-->
-                        <div class="col-md-4 col-sm-6 grid-item cat2">
-                            <div class="portfolio-single">
-                                <img src="assets/images/raf.webp" class="img-responsive" alt="Image">
-                                <div class="portfolio-overlay">
-                                    <div class="display-table">
-                                        <div class="table-cell">
-                                            <a class="popup-img" href="assets/images/raf.webp"><i class="icofont icofont-plus"></i></a>
-                                            <a href="https://play.google.com/store/apps/details?id=com.royale.raf"><i class="icofont icofont-link"></i></a>
-                                            <h5>Apps Development</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Portfolio Single-->
-
-                        <!--Start Portfolio Single-->
-                        <div class="col-md-4 col-sm-6 grid-item cat3">
-                            <div class="portfolio-single">
-                                <img src="assets/images/royale_ustad.webp" class="img-responsive" alt="Image">
-                                <div class="portfolio-overlay">
-                                    <div class="display-table">
-                                        <div class="table-cell">
-                                            <!-- <a class="popup-img" href="assets/images/royale_ustad.webp"><i class="icofont icofont-plus"></i></a> -->
-                                            <a href="https://play.google.com/store/apps/details?id=com.royaletouche.royaleustaad"><i class="icofont icofont-link"></i></a>
-                                            <h5>Web Design</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Portfolio Single-->
-
-                        <!--Start Portfolio Single-->
-                        <div class="col-md-4 col-sm-6 grid-item cat2">
-                            <div class="portfolio-single">
-                                <img src="assets/images/royale_design_hq.webp" class="img-responsive" alt="Image">
-                                <div class="portfolio-overlay">
-                                    <div class="display-table">
-                                        <div class="table-cell">
-                                            <!-- <a class="popup-img" href="assets/images/royale_design_hq.webp"><i class="icofont icofont-plus"></i></a> -->
-                                            <a href="https://play.google.com/store/apps/details?id=com.royaletouche.showroom"><i class="icofont icofont-link"></i></a>
-                                            <h5>Graphic Design</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Portfolio Single-->
-                    </div>
-                    <!--End Row-->
-                </div>
-                <!--End Portfolio List-->
             </div>
-            <!--End Container-->
         </section>
-        <!--End Portfolio Area-->
 
-        <!--Start Call To Action Area-->
-        <section id="call-to-action" class="bg-gray">
-            <!--Start Container-->
+        <section id="testimonials" class="section section-dark">
             <div class="container">
-                <!--Start Row-->
-                <div class="row">
-                    <!--Start Call To Action Content-->
-                    <div class="col-md-12">
-                        <div class="col-to-action-content text-center">
-                            <h2>Hire me for your project</h2>
-                            <a href="//api.whatsapp.com/send?phone=+12269885451&text=Hey Amul, I would like to hire you for my project." title="Share on whatsapp">Hire Me</a>
+                <div class="section-header">
+                    <span class="section-number">05</span>
+                    <h2 class="section-title">Testimonials</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">
+                            Amul's ability to handle multiple tasks was unlike any I've seen before and made a dramatic 
+                            increase in the productivity level of our company. I am impressed by his ability to deal with 
+                            even the toughest tasks – effortlessly.
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-name">Cliffer Pandyan</div>
+                            <div class="author-role">TheBeautyCo</div>
                         </div>
                     </div>
-                    <!--End Call To Action Content-->
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">
+                            Amul is wonderful to work with and has exceptional expertise in understanding the requirement 
+                            and delivering the right solution. We have worked on complex tasks from tackling sales officer's 
+                            day-to-day activity to sales data analytics.
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-name">Jigar Gajjar</div>
+                            <div class="author-role">Beardo</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">
+                            I worked with Amul and he is always trying to find unique solution and he is always ready to 
+                            learn new technology.
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-name">Ujjaval Jani</div>
+                            <div class="author-role">TriState Technology</div>
+                        </div>
+                    </div>
                 </div>
-                <!--End Row-->
             </div>
-            <!--End Container-->
         </section>
-        <!--End Call To Action Area-->
 
-        <!--Start Testimonial Area-->
-        <section id="testimonial-area">
-            <!--Start Heading-->
-            <div class="heading text-center">
-                <h2>Client's Feedback</h2>
-            </div>
-            <!--End Heading-->
-
-            <!--Start Container-->
+        <section id="contact" class="section">
             <div class="container">
-                <!--Start Row-->
-                <div class="row">
-                    <!--Start Testimonial Carousel-->
-                    <div class="col-md-6 col-md-offset-3">
-                        <div class="testimonial-carousel owl-carousel">
-                            <!--Start Testimonial Single-->
-                            <div class="testimonial-single">
-                                <div class="client-info text-center">
-                                    <img src="assets/images/cliffer.jpeg" class="img-responsive" alt="Image">
-                                    <h5>Cliffer Pandyan</h5>
-                                    <p><a href="https://www.linkedin.com/in/cliffer-pandyan/">TheBeautyCo</a></p>
+                <div class="section-header">
+                    <span class="section-number">06</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-content">
+                        <p class="contact-intro">
+                            Let's discuss your next project. I'm always open to talking about new opportunities 
+                            and interesting challenges.
+                        </p>
+                        <div class="contact-methods">
+                            <a href="mailto:amulpatel.cse@gmail.com" class="contact-method">
+                                <div class="method-icon">✉</div>
+                                <div class="method-info">
+                                    <div class="method-label">Email</div>
+                                    <div class="method-value">amulpatel.cse@gmail.com</div>
                                 </div>
-                                <div class="client-comment text-center">
-                                    <p>Amul's ability to handle multiple tasks was unlike any I’ve seen before and made a dramatic increase in the productivity level of our company.</p>
-
-                                    <p>I am impressed by his ability to deal with even the toughest tasks – effortlessly. That skill often takes years to develop among professionals, but it seemed to come perfectly naturally to him.</p>
-                                        
-                                    <p>I have the pleasure of working with Amul since a year, teaming up on several project teams.</p>
-
-                                </div>
-                            </div>
-                            <!--End Testimonial Single-->
-
-                            <!--Start Testimonial Single-->
-                            <div class="testimonial-single">
-                                <div class="client-info text-center">
-                                    <img src="assets/images/jigar.jpeg" class="img-responsive" alt="Image">
-                                    <h5>Jigar Gajjar</h5>
-                                    <p><a href="https://www.linkedin.com/in/jigar-gajjar-63157499/">Beardo</a></p>
-                                </div>
-                                <div class="client-comment text-center">
-                                    <p>Amul is wonderful to work with and has exceptional expertise in understanding the requirement and delivering the right solution. We have worked on complex tasks from tackling sales officer's day-to-day activity to sales data analytics. He has proved his technical expertise in various places with his suggestions and ideas for the problem.</p>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                            <div class="contact-method">
+                                <div class="method-icon">📍</div>
+                                <div class="method-info">
+                                    <div class="method-label">Location</div>
+                                    <div class="method-value">Toronto, Canada</div>
                                 </div>
                             </div>
-                            <!--End Testimonial Single-->
-
-                            <!--Start Testimonial Single-->
-                            <div class="testimonial-single">
-                                <div class="client-info text-center">
-                                    <img src="assets/images/ujjaval.jpeg" class="img-responsive" alt="Image">
-                                    <h5>Ujjaval Jani</h5>
-                                    <p><a href="https://www.linkedin.com/in/ujjaval-jani-5902b67b/">TriState Technology</a></p>
-                                </div>
-                                <div class="client-comment text-center">
-                                    <p>I worked with Amul and he is always trying to find unique solution and he is always ready to learn new technology.</p>
-                                </div>
-                            </div>
-                            <!--End Testimonial Single-->
                         </div>
                     </div>
-                    <!--End Testimonial Carousel-->
                 </div>
-                <!--End Row-->
             </div>
-            <!--End Container-->
         </section>
-        <!--End Testimonial Area-->
+    </main>
 
-      
-
-        <!--Start Contact Area-->
-        <section id="contact-area">
-            <!--Start Heading-->
-            <div class="heading text-center">
-                <h2>Contact Me</h2>
-            </div>
-            <!--End Heading-->
-
-            <!--Start Container-->
-            <div class="container">
-                <!--Start Row-->
-                <div class="row">
-                    <!--Start Contact Form-->
-                    <div class="col-md-12 text-center">
-                        <div class="about-contact-info">
-                            <p><a href="mailto:amulpatel.cse@gmail.com" target="_blank">amulpatel.cse@gmail.com</a></p>
-                            <p><a href="//api.whatsapp.com/send?phone=+12269885451&text=Hey Amul, I would like to work with you." title="Share on whatsapp">+1 (226) 988-5451</a></p>
-                            <p><span><i class="icofont icofont-social-google-map"></i> Address : </span> Cambridge, Canada</p>
-                        </div>
-                        <div class="about-social">
-                            <h5>Follow Me :</h5>
-                            <ul>
-                                <li><a href="https://www.linkedin.com/in/amulcse/" target="_blank"><i class="icofont icofont-brand-linkedin"></i></a></li>
-                                <li> <a href="//api.whatsapp.com/send?phone=919429348473&text=Hey Amul, I would like to work with you." title="Share on whatsapp"><i class="icofont icofont-social-whatsapp"></i></a></li>
-                                <li><a href="https://github.com/amulcse" target="_blank"><i class="icofont icofont-social-github"></i></a></li>
-                                <li><a href="https://twitter.com/smartamul" target="_blank"><i class="icofont icofont-social-twitter"></i></a></li>
-                                <li><a href="mailto:amulpatel.cse@gmail.com" target="_blank"><i class="icofont icofont-email"></i></a></li>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End Contact Form-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="current-year">2024</span> Amul Patel. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#work">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
                 </div>
-                <!--End Row-->
             </div>
-            <!--End Container-->
-        </section>
-        <!--End Contact Area-->
+        </div>
+    </footer>
 
-        <!--Start Footer-->
-        <footer id="footer" class="bg-gray text-center">
-            <p>&copy; Copy 2020. All Rights Reserved</p>
-
-            <!--Start Click To Top-->
-            <div class="totop">
-                <a href="#header"><i class="icofont icofont-simple-up"></i></a>
-            </div>
-            <!--End Click To Top-->
-        </footer>
-        <!--End Footer-->
-    </div>
-    <!--End Body Wrap-->
-
-    <!--jQuery JS-->
-    <script src="assets/js/jquery.min.js"></script>
-    <!--Bootstrap JS-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!--Magnic PopUp JS-->
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <!--Isotope JS-->
-    <script src="assets/js/isotope.min.js"></script>
-    <!--Image Loded JS-->
-    <script src="assets/js/images-loded.min.js"></script>
-    <!--Owl Carousel JS-->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!--Animated Headline JS-->
-    <script src="assets/js/animated-headline.js"></script>
-    <!--Bootsnav JS-->
-    <script src="assets/js/bootsnav.js"></script>
-    <!--Main JS-->
-    <script src="assets/js/custom.js"></script>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
